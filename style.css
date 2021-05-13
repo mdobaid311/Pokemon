@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+body {
+  /* background: #efefbb; */
+  /* background: linear-gradient(to right, #d4d3dd, #efefbb); */
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+section {
+  height: 100%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.pokemon_img {
+  margin-top: -10rem;
+}
+
+.cards {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poke-search {
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 30px;
+  border: 1px solid #2a6eb6;
+  box-shadow: 0 0 0 5px #2a6eb6;
+  border-radius: 10px /*  */;
+  padding: 5px 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Lato;
+}
+.types {
+  border-radius: 10px;
+  outline: none;
+  padding-left: 30px;
+  border: 1px solid #2a6eb6;
+  box-shadow: 0 0 0 5px #2a6eb6;
+  border-radius: 10px /*  */;
+  padding: 5px 10px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Lato;
+}
+
+.type-label {
+  font-size: 1.2rem;
+}
+
+/* Pokemon card */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(170, 169, 169, 0.3);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.img-container {
+  background-color: rgba(32, 22, 22, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+.pokemon-card:hover {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.6),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.6);
+}
